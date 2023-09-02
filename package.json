@@ -1,0 +1,29 @@
+{
+  "name": "node-js-course",
+  "version": "1.0.0",
+  "description": "template for node js course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "lint": "eslint . --fix"
+  },
+  "type": "module",
+  "keywords": [
+    "node",
+    "app"
+  ],
+  "author": "Monahov Alexandr",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "nodemon": "^3.0.1",
+    "prettier": "3.0.1"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "uid": "^2.0.2"
+  }
+}
